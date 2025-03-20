@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiSuerte</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Números a jugar el día de hoy, ¡Suerte Amigo!</h1>
+    </header>
+    <main class="contenedorPrincipal">
+
+        <section class="menuPrincipal">
+            <h2 class="titulos">Guarda tus números sorteados</h2>
+            <div class="guardar">
+            <input type="text"  id="numeroDigitado" placeholder="Ingresa el número sorteado"></input>
+            <label  for="loterias">Sorteo</label>
+            <select name="" id="loterias">
+            <option value="">Sinuano Día</option>
+            <option value="">Sinuano Noche</option>    
+            </select>
+            </div>
+            <button class="numeroAguardar" onclick="guardarNumero();">Guardar</button>
+            
+            
+            
+
+        </section>  
+
+        <section class="sorteo">
+            <h2 class="titulos" >¡Vamos, prueba tu suerte!</h2>
+            <button class="num" onclick="SugerirNumerosAJugar();" >Sortear</button>
+            <li>Números del 00 al 20</li>
+        </section> 
+
+        <div class="otroSorteo">
+            <button class="nuevoSorteo" onclick="nuevoSorteo();" >Nuevo Sorteo</button>
+        </div>    
+
+    </main>
+
+    <footer>
+        <h6>Desarrollado por: Luis Mendoza</h6>
+    </footer>
+
+
+    <script src="app.js" ></script>
+    
+</body>
+
+</html>
+
+

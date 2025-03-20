@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(imagenes/ganador.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header{
+    text-align:center;
+    margin-top: 20%;
+}
+
+.menuPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+input{
+    height: 30px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+label{
+    
+    color: black;
+    font-weight: 800;
+    
+    
+}
+
+.titulos{
+    font-size: 2rem;
+    color:blue;
+}
+
+.numeroAguardar{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: aqua;
+    padding: 5px;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+.guardar{
+    display: flex;
+    margin-top: 5%;
+    width: 40%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sorteo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    align-items: center;
+}
+
+
+
+
+.num{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 20%;
+    height: 30%;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: aqua;
+    padding: 5px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+h1,li{
+    color:gold;
+    font-weight: 800;
+    font-size: 3rem;
+    
+}
+
+
+
+.sorteos{
+    color: black;
+    font-size: 0.75rem;
+    width: 13%;
+    border-radius: 1px;
+    border: 0.5px solid blue;
+    background-color: aqua;
+    padding: 0; 
+}
+
+.nuevoSorteo{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 20%;
+    height: 30%;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: aqua;
+    padding: 5px;
+    margin-left: 42%;
+}
+
+li{
+    margin-top: 10%;
+}
+
+footer{
+    margin-top: 75%;
+}
