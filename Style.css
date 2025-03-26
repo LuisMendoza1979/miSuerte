@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 
@@ -14,7 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding: 0%;
 }
 
 header{
@@ -46,6 +48,7 @@ label{
 .titulos{
     font-size: 2rem;
     color:blue;
+    margin-top: 2%;
 }
 
 .numeroAguardar{
@@ -73,7 +76,7 @@ label{
 .sorteo{
     display: flex;
     flex-direction: column;
-    margin-top: 25%;
+    margin-top: 5%;
     align-items: center;
 }
 
@@ -127,9 +130,9 @@ h1,li{
 }
 
 li{
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 footer{
-    margin-top: 75%;
+    margin-top: 2%;
 }
