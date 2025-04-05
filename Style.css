@@ -12,18 +12,21 @@ body{
     background-image: url(imagenes/ganador.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
+    background-position: center;
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0%;
+    justify-content: center;
+    
+    
 }
 
 header{
     text-align:center;
     margin-top: 8%;
+    
 }
 
 
@@ -49,7 +52,7 @@ label{
 }
 
 .titulos{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:blue;
     margin-top: 2%;
 }
@@ -80,6 +83,7 @@ label{
     flex-direction: column;
     margin-top: 5%;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -103,21 +107,13 @@ label{
 h1,li{
     color:gold;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
 
 
 
-.sorteos{
-    color: black;
-    font-size: 0.75rem;
-    width: 13%;
-    border-radius: 1px;
-    border: 0.5px solid blue;
-    background-color: aqua;
-    padding: 0; 
-}
+
 
 .nuevoSorteo{
     color: black;
@@ -139,8 +135,9 @@ li{
 .pieDePagina{
     
     font-size: 1.5rem;
-    margin-top: 50%;
+    margin-top: 70%;
     padding: 10px 0px 20px 0px;
+    
     
     
     
