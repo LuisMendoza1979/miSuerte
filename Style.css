@@ -10,215 +10,79 @@
 body{
     
     background-image: url(imagenes/ganador.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    
+    background-size: contain;
+    background-repeat: repeat;
+    background-position-x: center;
 }
 
 header{
-    text-align:center;
-    margin-top: 8%;
+    /* background-color: yellow;*/
+    height: 20vh;
+    text-align: center;
+    font-size: 3rem;
+    padding: 100px;
     
 }
+    
 
+.contenedorPrincipal{
+    /*background-color: chartreuse;*/
+    height: 75vh;
+}
 
 .menuPrincipal{
+    /*background-color: aliceblue;*/
+    width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 2%;
-}
-
-input{
-    height: 30px;
-    width: 700px;
-    border-radius: 10px;
-}
-
-label{
-    
-    color: black;
-    font-weight: 800;
-    
-    
-}
-
-.titulos{
-    font-size: 1.5rem;
-    color:blue;
-    margin-top: 2%;
-}
-
-.numeroAguardar{
-    color: black;
-    font-size: 1rem;
-    font-weight: 600;
-    width: 30%;
-    height: 30%;
-    border-radius: 10px;
-    border: 1px solid blue;
-    background-color: aqua;
-    padding: 5px;
-    margin-top: 5%;
-
-}
-.guardar{
-    display: flex;
-    margin-top: 5%;
-    width: 40%;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+    gap: 60px;
+    font-size: 3rem;
+    
+    
+    
 }
 
 .sorteo{
+    /*background-color: lightblue;*/
+    width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
-    align-items: center;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 60px;
+    font-size: 3rem;
+    color: rgb(238, 234, 8);
 }
-
-
-
-
-.num{
-    color: black;
-    font-size: 1rem;
-    font-weight: 600;
-    width: 20%;
-    height: 30%;
-    border-radius: 10px;
-    border: 1px solid blue;
-    background-color: aqua;
-    padding: 5px;
-    margin-top: 2%;
     
-}
 
-h1,li{
-    color:gold;
-    font-weight: 800;
+
+.btn{
+    background-color: aqua;
+    width: 15%;
+    height: 10%;
+    border-radius: 10px;
     font-size: 2rem;
-    
+    cursor: pointer;
+    border: blue solid 2px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        
 }
 
-
-
-
-
-.nuevoSorteo{
-    color: black;
-    font-size: 1rem;
-    font-weight: 600;
-    width: 20%;
-    height: 30%;
-    border-radius: 10px;
-    border: 1px solid blue;
-    background-color: aqua;
-    padding: 5px;
-    
+.btn:hover{
+    background-color: lightblue;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-li{
-    margin-top: 2%;
+footer{
+    background-color: burlywood;
+    height: 5vh;
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px 0 10px 0;
 }
-
-.pieDePagina{
-    
-    font-size: 1.5rem;
-    margin-top: 70%;
-    padding: 10px 0px 20px 0px;
-    
-    
-    
-    
-}
-
-@media Only Screen and (min-width: 768px) {
-
-    body{
-        
-        background-image: url(imagenes/ganador.jpg);
-        background-repeat: repeat;
-        background-size: contain;
-        height: 100vh;
-        
-        
-        
-    }
-
-    header{
-        text-align:center;
-        margin-top: 5%;
-    }
-    
-    
-
-    .menuPrincipal{
-        margin-top: 20%;
-    }
-
-    .menuPrincipal{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 3%;
-        gap: 10px;
-    }
-
-    .titulos{
-        font-size: 4rem;
-        color:blue;
-        margin-top: 1%;
-    }
-    .sorteo{
-        display: flex;
-        flex-direction: column;
-        margin-top: 3%;
-        align-items: center;
-        gap: 40px;
-    }
-
-    h1,li{
-        color:gold;
-        font-weight: 800;
-        font-size: 4rem;
-        
-    }
-
-    .nuevoSorteo{
-        
-        font-size: 1rem;
-        width: 30%;
-        height: 70%;
-        border-radius: 10px;
-        border: 2px solid blue;
-        
-        
-    }
-
-    .nomSorteo{
-        color: blue;
-        font-size: 1.5rem;
-        font-weight: 800;
-        
-    }
-
-    .pieDePagina{
-        margin-top: 15%;
-        
-    }
-
-
-
-}
-        
