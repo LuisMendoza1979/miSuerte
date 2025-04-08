@@ -15,17 +15,17 @@
 
         <section class="menuPrincipal">
             <h2 class="titulos">Guarda tus números sorteados</h2>
-            <div class="guardar">
+            <div class="menuPrincipal_input">
             <input type="text"  id="numeroDigitado" placeholder="Ingresa el número sorteado"></input>
             <label class="nomSorteo" for="loterias">Sorteo</label>
-            <select name="" id="loterias">
+            <select  class="selector" name="" id="loterias">
+            <option value="">Elige un sorteo</option>
             <option value="">Sinuano Día</option>
             <option value="">Sinuano Noche</option>    
             </select>
             </div>
             <button class="btn" onclick="guardarNumero();">Guardar</button>
         </section>  
-
         <section class="sorteo">
             <h2 class="titulos" >¡Vamos, prueba tu suerte!</h2>
             <button class="btn" onclick="SugerirNumerosAJugar();" >Sortear</button>
