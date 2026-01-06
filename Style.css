@@ -119,7 +119,82 @@ footer{
     padding: 15px 0 10px 0;
 }
 
-/*@media screen and (max-width: 768px) {
-   
+@media screen and (max-width: 768px) {
+
+   body{
     
+    background-image: url(imagenes/ganador.jpg);
+    background-size: 130vh;
+    background-repeat: no-repeat;
+    background-position: center;    
+} 
+   
+    header{
+        
+        margin-top: 30px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .titulos{
+        font-size: 1.5rem;
+    }
+
+    li{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        width: 40%;
+        height: 20%;
+        font-size: 1.25rem;
+    }
+
+    #prueba{
+        margin-top: 50px;
+        font-size: 1.75rem;
+    }
+
+    .contenedorPrincipal{
+        height: auto;
+        display: block;
+        padding: 20px 0 20px 0;
+    }
+
+    .nomSorteo{
+        font-size: 1.5rem;
+    }
+
+    
+        
+    .menuPrincipal_input{
+        
+        gap: 20px;
+        width: 110%;
+        height: 20%;
+       
+        
+    }
+
+    .menuPrincipal_input input{
+        font-size:0.5rem;
+        height: 30px;
+    }
+  
+    
+    
+    
+   
+     
+    .selector{
+        font-size: 0.75rem;
+        height: 40%;
+        width: 30%;
+    }
+   
+
+
+    footer{
+        font-size: 1.25rem;
+    }
 }
