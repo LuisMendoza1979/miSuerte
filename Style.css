@@ -126,14 +126,14 @@ footer{
     }
     
     h1{
-        font-size: 1.25rem;
-}
+        font-size: 2rem;
+    }
 
     .contenedorPrincipal{
     /*background-color: chartreuse;*/
     height: 75vh;
     display: block;
-}
+    }
 
     .menuPrincipal{
         gap: 40px;
