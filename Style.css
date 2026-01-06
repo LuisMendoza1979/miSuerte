@@ -120,11 +120,7 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-
-    body{
-        background-repeat: no-repeat;
-    }
-    
+   
     header{
     /* background-color: yellow;*/
     height: 20vh;
