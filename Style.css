@@ -141,7 +141,8 @@ footer{
     }
 
     li{
-        font-size: 1.5rem;
+        font-size: 2rem;
+        color: tomato;
     }
 
     .btn{
@@ -153,6 +154,7 @@ footer{
     #prueba{
         margin-top: 50px;
         font-size: 1.75rem;
+        color: tomato;
     }
 
     .contenedorPrincipal{
@@ -177,7 +179,7 @@ footer{
     }
 
     .menuPrincipal_input input{
-        font-size:0.5rem;
+        font-size:1rem;
         height: 30px;
     }
   
