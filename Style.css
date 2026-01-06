@@ -126,8 +126,13 @@ footer{
     }
     
     header{
-        font-size: 2rem;
-    }
+    /* background-color: yellow;*/
+    height: 20vh;
+    text-align: center;
+    font-size: 3rem;
+    padding: 100px;
+    
+}
 
     .contenedorPrincipal{
     /*background-color: chartreuse;*/
