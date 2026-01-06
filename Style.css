@@ -125,10 +125,9 @@ footer{
         background-repeat: no-repeat;
     }
     
-    h1{
-        font-size: 1rem;
-        padding: 50px;
-    }
+    header{
+        font-size: 1.25rem;
+}
 
     .contenedorPrincipal{
     /*background-color: chartreuse;*/
