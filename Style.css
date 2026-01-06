@@ -140,9 +140,13 @@ footer{
         font-size: 1.5rem;
     }
 
+    .sorteo{
+        color: tomato;
+    }
+    
     li{
         font-size: 2rem;
-        color: tomato;
+        
     }
 
     .btn{
@@ -154,7 +158,7 @@ footer{
     #prueba{
         margin-top: 50px;
         font-size: 1.75rem;
-        color: tomato;
+        
     }
 
     .contenedorPrincipal{
